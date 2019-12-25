@@ -5,8 +5,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Bootstrap Test</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="sass/style.scss">
-   <style>
+  <link rel="stylesheet" href="css/style.css">
+    <style>
         body {
         padding-top: 100px;
         }
@@ -19,8 +19,62 @@
         }
     </style>
 </head>
+
 <body>
-    <h1>Bootstrap Test</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1><img src="images/logo.png" alt="Bootstrap logo"></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AboutUs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            Products
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="container topics">
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <h2>見出し</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vitae sint quod quibusdam quas exercitationem quia laborum eum ullam illo aspernatur, voluptatibus perspiciatis odit magni ut et natus provident. Quos voluptatem asperiores neque, quaerat fugit expedita eos iure nam ea quas necessitatibus, hic. Fugiat vel deserunt, itaque optio reiciendis praesentium.</p>
+                <a href="#" class="btn btn-primary mr-2 mb-5" type="button" >詳細</button></a>
+                <a href="#" class="btn btn-warning mb-5" type="button" >公式</button></a>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h2>見出し</h2>
+                <p>Aut, iure, vel harum omnis ratione dolorem, blanditiis molestias, voluptatum ut neque impedit obcaecati ab ipsam nisi voluptatem incidunt labore sint qui suscipit sequi iste repudiandae. Harum animi quod, culpa nemo iste, non quam dolorum, veniam error eum explicabo totam obcaecati sunt. Molestias dolorum mollitia quod blanditiis commodi, expedita perferendis.</p>
+                <a href="#" class="btn btn-primary mr-2 mb-5" type="button" >詳細</button></a>
+                <a href="#" class="btn btn-warning mb-5" type="button" >公式</button></a>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h2>見出し</h2>
+                <p>Eum numquam recusandae veniam ea ex, tenetur, aperiam perspiciatis nihil, itaque officia quod sed reprehenderit ducimus aspernatur! Voluptate pariatur similique enim officiis obcaecati, repudiandae ex adipisci eos laudantium hic doloribus ullam quae officia commodi neque accusantium tenetur sint ut nesciunt vitae odit temporibus qui voluptas esse vel. Nostrum, distinctio, quam!</p>
+                <a href="#" class="btn btn-primary mr-2 mb-5" type="button" >詳細</button></a>
+                <a href="#" class="btn btn-warning mb-5" type="button" >公式</button></a>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
